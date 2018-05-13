@@ -1,5 +1,5 @@
 ---
-siderbar: auto
+sidebar: auto
 ---
 
 # Markdown Demo
