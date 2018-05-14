@@ -13,10 +13,10 @@ module.exports = {
       { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
     ],
     sidebar: {
-      '/foo/': [
-        '',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
+      '/guide/': [
+        '',     /* /guide/ */
+        'advanced',  /* /guide/advanced.md */
+        
       ],
     }
   },
