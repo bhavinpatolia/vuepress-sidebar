@@ -13,7 +13,11 @@ module.exports = {
       { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
     ],
     sidebar: {
-      '/guide/': genSidebarConfig('Guide')
+      '/foo/': [
+        '',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'two'   /* /foo/two.html */
+      ],
     }
   },
 
